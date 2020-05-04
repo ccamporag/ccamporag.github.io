@@ -1,15 +1,3 @@
-name: "ccamporag"
-navbar:
-  title: "Cristóbal Campora G"
-  left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-output:
-  html_document:
-    theme: cosmo
-    highlight: textmate
-    include:
-      after_body: footer.html
-    css: styles.css
+---
+site: blogdown:::blogdown_site
+---
